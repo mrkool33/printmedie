@@ -1,0 +1,71 @@
+.background-img{
+	position:relative;
+	height:100%;
+}
+/*to chang the opacity of the background img only you neeed to pasfird the position to keep out this funtion*/
+.background-img:before{
+	content: "";
+	background-image:url("notbocklins.jpg");
+	position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.3;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	}
+.logo img{
+     max-width: 100%;
+     background-image: URL("milk.png");
+     position: sticky;
+	
+    
+	}
+.logo_bar{
+    text-align: center;
+	list-style: none;
+	position: relative;
+    }
+.logo_img{
+	margin-top:50px;
+    text-align: center;
+	}
+
+.logo_text{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+
+.media_links ul{
+    list-style: none;
+}
+.media_links a{
+    text-decoration: none;
+}
+
+.media_links{
+    text-align: center;
+	position: relative;
+}
+.media_links img{
+	margin-top:30px;
+	height:100px;
+	width:100px;
+	border-radius: 50%;
+	padding-right:20px;
+	padding-left:20px;
+}
+/*to chang the opacity of the links wen the mose on them or clecked*/
+.media_links img:hover{
+	margin-top:30px;
+	height:100px;
+	width:100px;
+	border-radius: 50%;
+	padding-right:20px;
+	padding-left:20px;
+	opacity:0.5;
+}
+
+
+
